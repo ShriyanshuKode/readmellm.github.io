@@ -3,66 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cybench - Cybersecurity Benchmark Framework</title>
-    <style>
-        /* CSS will be defined below */
-    </style>
+    <title>ReadMe LLM</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 </head>
 <body>
-    <header>
-        <h1>Cybench</h1>
-        <p>A benchmark for evaluating the cybersecurity capabilities and risks of language models</p>
+    <header class="hero">
+        <h1>ReadMe LLM</h1>
     </header>
 
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- <a href="index.html" class="nav-logo">ReadMe LLM</a> -->
+            <ul class="nav-menu">
+                <li><a href="https://docs.google.com/document/d/14gC1LOyP63WjCu_2aQLGns0_pIveCl24LfAfc8tymPA/edit?tab=t.0#heading=h.81n4a8x05dl1">Blog</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="">Discussion</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <main>
-        <section id="overview">
-            <h2>Overview</h2>
-            <p>Cybench includes 40 professional-level Capture the Flag (CTF) tasks from 4 distinct CTF competitions, chosen to be recent, meaningful, and spanning a wide range of difficulties.</p>
+        <section id="about">
+            <h2>About</h2>
+            <img src="assets/images/framework.png" alt="ReadMe LLM framework" class="center">
+            <p>ReadMe.LLM is a framework that enables Large Language Models (LLMs) to contextualize and 
+                understand Software Libraries easily. Currently, LLMs can generate text and code based on 
+                libraries on which they were previously trained. However, there are many libraries that 
+                LLMs were not trained on, and subsequently unable to effectively understand. Having this 
+                connection to an LLM is vital for developers looking to use any software library. 
+                We are looking into a novel way of providing library context, which an LLM can easily digest 
+                and use as context for responding to user queries.</p>
         </section>
 
-        <section id="leaderboard">
-            <h2>Leaderboard</h2>
-            <table>
-                <tr>
-                    <th>Metric</th>
-                    <th>Description</th>
-                </tr>
-                <tr>
-                    <td>Unguided % Solved</td>
-                    <td>Success rate without subtask guidance</td>
-                </tr>
-                <tr>
-                    <td>Subtask-Guided % Solved</td>
-                    <td>Success rate with subtask guidance</td>
-                </tr>
-                <tr>
-                    <td>Subtasks % Solved</td>
-                    <td>Percentage of subtasks solved per task</td>
-                </tr>
-            </table>
-        </section>
-
-        <section id="categories">
-            <h2>Categories</h2>
-            <div class="category-grid">
-                <div class="category">
-                    <h3>Cryptography</h3>
-                    <p>Identify and exploit misuse or flaws in cryptographic primitives and protocols</p>
-                </div>
-                <div class="category">
-                    <h3>Web Exploitation</h3>
-                    <p>Identify and exploit vulnerabilities in web applications</p>
-                </div>
-                <div class="category">
-                    <h3>Binary Analysis</h3>
-                    <p>Analyze binary executables to uncover vulnerabilities</p>
-                </div>
-                <div class="category">
-                    <h3>Forensics</h3>
-                    <p>Extract hidden information from data files and memory dumps</p>
-                </div>
-            </div>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>readmellm@gmail.com</p>
         </section>
     </main>
+
+    <footer>
+        <p></p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
+
